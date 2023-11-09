@@ -1,0 +1,55 @@
+.newsroom {
+  padding: 100px 0;
+  background: #fafafc;
+  &__wrapper {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  &__orange2 {
+    color: $main-color;
+    font-family: Poppins;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 140% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  &__title2 {
+    color: #45525b;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.2px; /* 120% */
+  }
+  &__text {
+    color: #6f7278;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px; /* 150.769% */
+  }
+  &__item {
+    width: 376px;
+  }
+  &__inner {
+    padding: 30px;
+    background-color: #fff;
+    height: 150px;
+  }
+  &__title {
+    margin-bottom: 10px;
+  }
+  &__list {
+    display: flex;
+    gap: 20px;
+  }
+  &__btn {
+    margin-top: 20px;
+  }
+}

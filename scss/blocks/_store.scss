@@ -1,0 +1,54 @@
+.store {
+  &__text {
+    margin-top: 20px;
+    color: $secondary-color;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 140% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  &__wrapper {
+    margin-bottom: 30px;
+  }
+  &__item {
+    width: 379px;
+  }
+  &__subtitle {
+    margin-bottom: 11px;
+    color: $title-color;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+  }
+  &__icon {
+    color: $title-color;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 140% */
+  }
+  &__item2 {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  &__list2 {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+&__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21.61px;
+}
+}

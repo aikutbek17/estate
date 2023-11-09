@@ -1,0 +1,56 @@
+.listings {
+  &__title {
+    margin-bottom: 11px;
+  }
+  &__wrapper {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 565;
+  }
+  &__subtitle {
+    color: $title-color;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.6px; /* 140% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  &__bg-gray {
+    padding: 12px;
+    width: 48px;
+    height: 48px;
+    background: $title-color;
+    margin-bottom: 9px;
+  }
+  &__box {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+  &__item {
+    padding: 21px;
+    border-radius: 10px;
+    border: 1px solid rgba(202, 204, 209, 0.2);
+    width: 300px;
+    height: 167px;
+    background: #fafafc;
+  }
+  &__text {
+    width: 196px;
+    color: $secondary-color;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px; /* 140% */
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

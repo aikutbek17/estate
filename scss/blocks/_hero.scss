@@ -1,0 +1,38 @@
+.hero {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  &__title {
+    text-align: center;
+    margin: 200px auto 0;
+    margin-top: 20px;
+    color: #444;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  &__wrapper {
+    text-align: center;
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    width: 64px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 50%;
+    padding: 22px 32px;
+    border: 2px solid #3a4443;
+  }
+  &__bg {
+    padding-top: 233px;
+    padding-bottom: 50px;
+    background-color: rgba(250, 250, 252, 0.78);
+  }
+}
