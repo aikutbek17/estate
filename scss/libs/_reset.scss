@@ -6,6 +6,10 @@
 .container {
   width: 1200px;
   margin: 0 auto;
+  @media screen and (max-width: 480px) {
+    width: 450px;
+    margin: 0 auto;
+  }
 }
 body,
 h1,
@@ -30,4 +34,7 @@ ul {
 
 section:not(:last-child) {
   margin-bottom: 90px;
+  @media screen and (max-width: 480px) {
+    margin-bottom: 50px;
+  }
 }
