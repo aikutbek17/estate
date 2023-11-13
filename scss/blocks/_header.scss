@@ -27,9 +27,6 @@
   display: none;
 }
 .modal-bg {
-  width: 400px;
-  height: 500px;
-  background-color: aqua;
 }
 @media screen and (max-width: 480px) {
   .menu {
@@ -37,6 +34,7 @@
       display: none;
     }
     &__link {
+      color: $main-color;
     }
     &__burger-btn {
       display: block;
