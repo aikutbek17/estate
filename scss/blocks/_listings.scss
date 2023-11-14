@@ -6,7 +6,7 @@
     text-align: center;
     margin: 0 auto;
     margin-bottom: 30px;
-    width: 565;
+    max-width: 565;
   }
   &__subtitle {
     color: $title-color;
@@ -20,8 +20,8 @@
   }
   &__bg-gray {
     padding: 12px;
-    width: 48px;
-    height: 48px;
+    max-width: 48px;
+    min-height: 48px;
     background: $title-color;
     margin-bottom: 9px;
   }
@@ -34,12 +34,12 @@
     padding: 21px;
     border-radius: 10px;
     border: 1px solid rgba(202, 204, 209, 0.2);
-    width: 300px;
-    height: 167px;
+    max-width: 300px;
+    min-height: 167px;
     background: #fafafc;
   }
   &__text {
-    width: 196px;
+    max-width: 196px;
     color: $secondary-color;
     font-family: Poppins;
     font-size: 14px;

@@ -1,6 +1,6 @@
 .team {
   &__inner {
-    width: 368px;
+    max-width: 368px;
   }
   &__wrapper {
     display: flex;
@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    width: 320px;
+    max-width: 320px;
     img {
       border-radius: 50%;
       border: 2px solid #caccd1;
@@ -43,6 +43,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 700px;
+    max-width: 700px;
   }
 }

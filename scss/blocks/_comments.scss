@@ -11,7 +11,7 @@
   &__item {
     padding: 30px;
 
-    width: 569px;
+    max-width: 569px;
     min-height: 286px;
     border-radius: 4px;
     border: 1px solid rgba(82, 80, 59, 0.1);
@@ -47,5 +47,4 @@
     display: flex;
     gap: 30px;
   }
-  
 }
