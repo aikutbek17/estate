@@ -28,7 +28,7 @@
   }
   &__line {
     display: block;
-    width: 1.949px;
+    max-width: 1.949px;
     min-height: 24px;
     background: $main-color;
   }
